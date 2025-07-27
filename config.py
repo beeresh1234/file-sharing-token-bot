@@ -30,11 +30,11 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Hanuman")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9f943360c339cec4fed66d9d5cbaa0c2b3d41f81")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 0)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "False")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/+PZfHvzjSiZc4OGE1") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002647662043"))
